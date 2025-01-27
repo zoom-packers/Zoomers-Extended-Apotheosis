@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [{
+        "type": "apotheosis:module",
+        "module": "adventure"
+    }],
+    "ingredients": [
+        {
+            "item": "ze_apotheosis:radiant_material"
+        },
+        {
+            "item": "minecraft:blaze_rod"
+        },
+        {
+            "item": "ze_apotheosis:radiant_material"
+        },
+        {
+            "item": "minecraft:glistering_melon_slice"
+        },
+        {
+            "item": "minecraft:ender_eye"
+        },
+        {
+            "item": "minecraft:rabbit_foot"
+        },
+        {
+            "item": "ze_apotheosis:radiant_material"
+        },
+        {
+            "item": "minecraft:blaze_rod"
+        },
+        {
+            "item": "ze_apotheosis:radiant_material"
+        }
+    ],
+    "result": {
+        "item": "ze_apotheosis:celestial_material",
+        "count": 2
+    }
+}

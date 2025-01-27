@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "ze_apotheosis:item/radiant_material"
+    }
+}

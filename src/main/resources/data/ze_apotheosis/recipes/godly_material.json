@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [{
+        "type": "apotheosis:module",
+        "module": "adventure"
+    }],
+    "ingredients": [
+        {
+            "item": "ze_apotheosis:angelic_material"
+        },
+        {
+            "item": "apotheosis:warden_tendril"
+        },
+        {
+            "item": "ze_apotheosis:angelic_material"
+        },
+        {
+            "item": "apotheosis:warden_tendril"
+        },
+        {
+            "item": "minecraft:sculk_shrieker"
+        },
+        {
+            "item": "apotheosis:warden_tendril"
+        },
+        {
+            "item": "ze_apotheosis:angelic_material"
+        },
+        {
+            "item": "apotheosis:warden_tendril"
+        },
+        {
+            "item": "ze_apotheosis:angelic_material"
+        }
+    ],
+    "result": {
+        "item": "ze_apotheosis:godly_material",
+        "count": 2
+    }
+}

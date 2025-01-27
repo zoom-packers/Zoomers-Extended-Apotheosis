@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "conditions": [{
+        "type": "apotheosis:module",
+        "module": "adventure"
+    }],
+    "group": "something",
+    "pattern": [
+        " N ",
+        "GEG",
+        "BBB"
+    ],
+    "key": {
+        "N": {
+            "item": "apotheosis:warden_tendril"
+        },
+        "G": {
+            "item": "ze_apotheosis:angelic_material"
+        },
+        "E": {
+            "item": "ze_apotheosis:ultimate_reforging_table"
+        },
+        "B": {
+            "item": "minecraft:sculk_catalyst"
+        }
+    },
+    "result": {
+        "item": "ze_apotheosis:god_reforging_table",
+        "count": 1
+    }
+}

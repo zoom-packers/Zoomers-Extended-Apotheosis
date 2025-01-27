@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "conditions": [{
+        "type": "apotheosis:module",
+        "module": "adventure"
+    }],
+    "group": "something",
+    "pattern": [
+        " N ",
+        "GEG",
+        "BBB"
+    ],
+    "key": {
+        "N": {
+            "item": "minecraft:dragon_breath"
+        },
+        "G": {
+            "item": "ze_apotheosis:celestial_material"
+        },
+        "E": {
+            "item": "ze_apotheosis:enhanced_reforging_table"
+        },
+        "B": {
+            "item": "minecraft:end_stone_bricks"
+        }
+    },
+    "result": {
+        "item": "ze_apotheosis:ultimate_reforging_table",
+        "count": 1
+    }
+}

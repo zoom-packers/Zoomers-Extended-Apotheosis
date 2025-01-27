@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [{
+        "type": "apotheosis:module",
+        "module": "adventure"
+    }],
+    "ingredients": [
+        {
+            "item": "minecraft:leather"
+        },
+        {
+            "item": "minecraft:string"
+        },
+        {
+            "item": "minecraft:leather"
+        },
+        {
+            "item": "minecraft:flint"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:flint"
+        },
+        {
+            "item": "minecraft:leather"
+        },
+        {
+            "item": "minecraft:string"
+        },
+        {
+            "item": "minecraft:leather"
+        }
+    ],
+    "result": {
+        "item": "apotheosis:common_material",
+        "count": 1
+    }
+}

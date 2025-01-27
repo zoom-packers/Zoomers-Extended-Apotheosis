@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pandaismyname1.zeapoth.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ze_apotheosis.refmap.json",
+  "mixins": [
+    "AdventureModuleMixin",
+    "ApothEnchantmentMenuMixin",
+    "EnchantmentMenuMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

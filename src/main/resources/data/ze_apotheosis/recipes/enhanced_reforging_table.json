@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "conditions": [{
+        "type": "apotheosis:module",
+        "module": "adventure"
+    }],
+    "group": "something",
+    "pattern": [
+        " N ",
+        "GEG",
+        "BBB"
+    ],
+    "key": {
+        "N": {
+            "tag": "forge:ingots/netherite"
+        },
+        "G": {
+            "item": "ze_apotheosis:radiant_material"
+        },
+        "E": {
+            "item": "ze_apotheosis:artisanal_reforging_table"
+        },
+        "B": {
+            "item": "minecraft:nether_bricks"
+        }
+    },
+    "result": {
+        "item": "ze_apotheosis:enhanced_reforging_table",
+        "count": 1
+    }
+}

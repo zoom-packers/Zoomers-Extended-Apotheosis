@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [{
+        "type": "apotheosis:module",
+        "module": "adventure"
+    }],
+    "ingredients": [
+        {
+            "item": "apotheosis:rare_material"
+        },
+        {
+            "item": "apotheosis:gem_dust"
+        },
+        {
+            "item": "apotheosis:rare_material"
+        },
+        {
+            "item": "apotheosis:gem_dust"
+        },
+        {
+            "item": "minecraft:gunpowder"
+        },
+        {
+            "item": "apotheosis:gem_dust"
+        },
+        {
+            "item": "apotheosis:rare_material"
+        },
+        {
+            "item": "apotheosis:gem_dust"
+        },
+        {
+            "item": "apotheosis:rare_material"
+        }
+    ],
+    "result": {
+        "item": "apotheosis:epic_material",
+        "count": 1
+    }
+}

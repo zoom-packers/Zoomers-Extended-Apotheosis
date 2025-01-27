@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [{
+        "type": "apotheosis:module",
+        "module": "adventure"
+    }],
+    "ingredients": [
+        {
+            "item": "apotheosis:common_material"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "apotheosis:common_material"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "minecraft:paper"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "apotheosis:common_material"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "apotheosis:common_material"
+        }
+    ],
+    "result": {
+        "item": "apotheosis:uncommon_material",
+        "count": 1
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [{
+        "type": "apotheosis:module",
+        "module": "adventure"
+    }],
+    "ingredients": [
+        {
+            "item": "apotheosis:mythic_material"
+        },
+        {
+            "item": "minecraft:glowstone_dust"
+        },
+        {
+            "item": "apotheosis:mythic_material"
+        },
+        {
+            "item": "minecraft:quartz"
+        },
+        {
+            "item": "minecraft:soul_lantern"
+        },
+        {
+            "item": "minecraft:quartz"
+        },
+        {
+            "item": "apotheosis:mythic_material"
+        },
+        {
+            "item": "minecraft:glowstone_dust"
+        },
+        {
+            "item": "apotheosis:mythic_material"
+        }
+    ],
+    "result": {
+        "item": "ze_apotheosis:radiant_material",
+        "count": 1
+    }
+}

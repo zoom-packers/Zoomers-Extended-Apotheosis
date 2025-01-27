@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [{
+        "type": "apotheosis:module",
+        "module": "adventure"
+    }],
+    "ingredients": [
+        {
+            "item": "minecraft:amethyst_shard"
+        },
+        {
+            "item": "apotheosis:uncommon_material"
+        },
+        {
+            "item": "minecraft:amethyst_shard"
+        },
+        {
+            "item": "apotheosis:uncommon_material"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "apotheosis:uncommon_material"
+        },
+        {
+            "item": "minecraft:amethyst_shard"
+        },
+        {
+            "item": "apotheosis:uncommon_material"
+        },
+        {
+            "item": "minecraft:amethyst_shard"
+        }
+    ],
+    "result": {
+        "item": "apotheosis:rare_material",
+        "count": 1
+    }
+}

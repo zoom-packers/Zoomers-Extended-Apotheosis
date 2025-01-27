@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "conditions": [{
+        "type": "apotheosis:module",
+        "module": "adventure"
+    }],
+    "ingredients": [
+        {
+            "item": "ze_apotheosis:celestial_material"
+        },
+        {
+            "item": "minecraft:dragon_breath"
+        },
+        {
+            "item": "ze_apotheosis:celestial_material"
+        },
+        {
+            "item": "minecraft:dragon_breath"
+        },
+        {
+            "item": "minecraft:dragon_egg"
+        },
+        {
+            "item": "minecraft:dragon_breath"
+        },
+        {
+            "item": "ze_apotheosis:celestial_material"
+        },
+        {
+            "item": "minecraft:dragon_breath"
+        },
+        {
+            "item": "ze_apotheosis:celestial_material"
+        }
+    ],
+    "result": {
+        "item": "ze_apotheosis:angelic_material",
+        "count": 2
+    }
+}
