@@ -18,6 +18,8 @@ public class Items {
     public static final RegistryObject<Item> ANGELIC_MATERIAL = ITEMS.register("angelic_material", () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> GODLY_MATERIAL = ITEMS.register("godly_material", () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
 
+    public static final RegistryObject<Item> ENDER_DRAGON_WING = ITEMS.register("ender_dragon_wing", () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
+
 
     public static void bootstrap(IEventBus bus) {
         ITEMS.register(bus);

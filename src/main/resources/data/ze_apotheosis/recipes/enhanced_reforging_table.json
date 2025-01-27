@@ -8,11 +8,11 @@
     "pattern": [
         " N ",
         "GEG",
-        "BBB"
+        "BAB"
     ],
     "key": {
         "N": {
-            "tag": "forge:ingots/netherite"
+            "item": "minecraft:heart_of_the_sea"
         },
         "G": {
             "item": "ze_apotheosis:radiant_material"
@@ -20,8 +20,11 @@
         "E": {
             "item": "ze_apotheosis:artisanal_reforging_table"
         },
+        "A": {
+            "item": "minecraft:diamond_block"
+        },
         "B": {
-            "item": "minecraft:nether_bricks"
+            "item": "minecraft:dark_prismarine"
         }
     },
     "result": {

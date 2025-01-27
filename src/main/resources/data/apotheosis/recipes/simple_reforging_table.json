@@ -8,24 +8,27 @@
     "pattern": [
         " N ",
         "GEG",
-        "BBB"
+        "BAB"
     ],
     "key": {
         "N": {
-            "item": "ze_apotheosis:ender_dragon_wing"
+            "item": "minecraft:book"
         },
         "G": {
-            "item": "ze_apotheosis:celestial_material"
+            "item": "apotheosis:common_material"
         },
         "E": {
-            "item": "ze_apotheosis:enhanced_reforging_table"
+            "item": "minecraft:smithing_table"
+        },
+        "A": {
+            "item": "minecraft:iron_block"
         },
         "B": {
-            "item": "minecraft:end_stone_bricks"
+            "item": "minecraft:stone"
         }
     },
     "result": {
-        "item": "ze_apotheosis:ultimate_reforging_table",
+        "item": "apotheosis:simple_reforging_table",
         "count": 1
     }
 }

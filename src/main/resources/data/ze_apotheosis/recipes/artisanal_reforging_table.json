@@ -8,11 +8,11 @@
     "pattern": [
         " N ",
         "GEG",
-        "BBB"
+        "BAB"
     ],
     "key": {
         "N": {
-            "tag": "forge:ingots/netherite"
+            "item": "minecraft:nautilus_shell"
         },
         "G": {
             "item": "apotheosis:mythic_material"
@@ -20,8 +20,11 @@
         "E": {
             "item": "apotheosis:reforging_table"
         },
+        "A": {
+            "item": "minecraft:obsidian"
+        },
         "B": {
-            "item": "minecraft:nether_bricks"
+            "item": "minecraft:prismarine"
         }
     },
     "result": {

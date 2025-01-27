@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "ze_apotheosis:item/ender_dragon_wing"
+    }
+}

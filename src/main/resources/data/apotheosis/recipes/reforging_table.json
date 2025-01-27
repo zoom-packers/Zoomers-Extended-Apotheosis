@@ -8,24 +8,27 @@
     "pattern": [
         " N ",
         "GEG",
-        "BBB"
+        "BAB"
     ],
     "key": {
         "N": {
-            "item": "ze_apotheosis:ender_dragon_wing"
+            "item": "minecraft:amethyst_block"
         },
         "G": {
-            "item": "ze_apotheosis:celestial_material"
+            "item": "apotheosis:epic_material"
         },
         "E": {
-            "item": "ze_apotheosis:enhanced_reforging_table"
+            "item": "apotheosis:simple_reforging_table"
+        },
+        "A": {
+            "item": "minecraft:gold_block"
         },
         "B": {
-            "item": "minecraft:end_stone_bricks"
+            "item": "minecraft:smooth_stone"
         }
     },
     "result": {
-        "item": "ze_apotheosis:ultimate_reforging_table",
+        "item": "apotheosis:reforging_table",
         "count": 1
     }
 }

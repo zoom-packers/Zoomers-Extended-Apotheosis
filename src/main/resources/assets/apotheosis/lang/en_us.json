@@ -7,12 +7,14 @@
     "item.apotheosis.gem.apotheosis:custom_1": "Celestial %s",
     "item.apotheosis.gem.apotheosis:custom_2": "Angelic %s",
     "item.apotheosis.gem.apotheosis:custom_3": "Godly %s",
-    "block.ze_apotheosis.artisanal_reforging_table": "Artisanal Reforging Table",
-    "block.ze_apotheosis.enhanced_reforging_table": "Enhanced Reforging Table",
-    "block.ze_apotheosis.ultimate_reforging_table": "Ultimate Reforging Table",
-    "block.ze_apotheosis.god_reforging_table": "God Forge",
-    "item.ze_apotheosis.radiant_material": "Radiant Essence",
-    "item.ze_apotheosis.celestial_material": "Celestial Blessing",
-    "item.ze_apotheosis.angelic_material": "Angelic Grace",
-    "item.ze_apotheosis.godly_material": "God Eye"
+    "block.apotheosis.reforging_table": "§6Reforging Table§r",
+    "block.ze_apotheosis.artisanal_reforging_table": "§bArtisanal Reforging Table§r",
+    "block.ze_apotheosis.enhanced_reforging_table": "§cEnhanced Reforging Table§r",
+    "block.ze_apotheosis.ultimate_reforging_table": "§2Ultimate Reforging Table§r",
+    "block.ze_apotheosis.god_reforging_table": "§eGod Forge§r",
+    "item.ze_apotheosis.radiant_material": "§bRadiant Essence§r",
+    "item.ze_apotheosis.celestial_material": "§cCelestial Blessing§r",
+    "item.ze_apotheosis.angelic_material": "§2Angelic Grace§r",
+    "item.ze_apotheosis.godly_material": "§eGod Eye§r",
+    "item.ze_apotheosis.ender_dragon_wing": "Ender Dragon Wing"
 }

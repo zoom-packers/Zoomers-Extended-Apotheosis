@@ -1,6 +1,7 @@
 package com.pandaismyname1.zeapoth;
 
 import com.mojang.logging.LogUtils;
+import com.pandaismyname1.zeapoth.adventure.EnderDragonLootModifier;
 import com.pandaismyname1.zeapoth.adventure.Items;
 import com.pandaismyname1.zeapoth.adventure.ReforgingTables;
 import net.minecraftforge.api.distmarker.Dist;
@@ -14,6 +15,8 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegisterEvent;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -35,6 +38,7 @@ public class ZoomersExtendedApotheosis {
         MinecraftForge.EVENT_BUS.register(this);
         ReforgingTables.bootstrap(modEventBus);
         Items.bootstrap(modEventBus);
+        EnderDragonLootModifier.bootstrap(modEventBus);
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -47,6 +51,7 @@ public class ZoomersExtendedApotheosis {
     public void onServerStarting(ServerStartingEvent event) {
 
     }
+
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
