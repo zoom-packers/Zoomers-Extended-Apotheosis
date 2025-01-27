@@ -4,9 +4,9 @@
     "textures": {
         "particle": "minecraft:block/nether_bricks",
         "bottom": "minecraft:block/nether_bricks",
-        "top": "zoomers_extended_apotheosis:blocks/reforging/enhanced_table_top",
-        "side": "zoomers_extended_apotheosis:blocks/reforging/enhanced_table_side",
-        "lit": "zoomers_extended_apotheosis:blocks/reforging/enhanced_table_lit"
+        "top": "ze_apotheosis:blocks/reforging/enhanced_table_top",
+        "side": "ze_apotheosis:blocks/reforging/enhanced_table_side",
+        "lit": "ze_apotheosis:blocks/reforging/enhanced_table_lit"
     },
     "elements": [
         {   

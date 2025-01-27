@@ -1,5 +1,5 @@
 {
     "variants": {
-		"": { "model": "zoomers_extended_apotheosis:block/artisanal_reforging_table" }
+		"": { "model": "ze_apotheosis:block/artisanal_reforging_table" }
     }
 }

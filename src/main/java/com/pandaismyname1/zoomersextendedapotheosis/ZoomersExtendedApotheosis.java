@@ -42,7 +42,7 @@ import org.slf4j.Logger;
 public class ZoomersExtendedApotheosis {
 
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "zoomers_extended_apotheosis";
+    public static final String MODID = "ze_apotheosis";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
