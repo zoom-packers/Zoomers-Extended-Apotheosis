@@ -1,12 +1,11 @@
 package com.pandaismyname1.zeapoth.mixin;
 
+import com.pandaismyname1.zeapoth.EnchantEventWrapper;
 import com.pandaismyname1.zeapoth.EnchantmentMenuAccessMap;
 import dev.shadowsoffire.apotheosis.ench.table.ApothEnchantmentMenu;
-import harmonised.pmmo.api.events.EnchantEvent;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.enchantment.EnchantmentInstance;
-import net.minecraftforge.common.MinecraftForge;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
@@ -21,6 +20,7 @@ public abstract class ApothEnchantmentMenuMixin {
 
     @Shadow
     protected abstract List<EnchantmentInstance> getEnchantmentList(ItemStack stack, int enchantSlot, int level);
+
     @Shadow
     protected ApothEnchantmentMenu.TableStats stats;
 
@@ -53,8 +53,8 @@ public abstract class ApothEnchantmentMenuMixin {
         ItemStack toEnchant = apothEnchantMenu.slots.get(id).getItem();
         var enchantmentInstances = enchantMappings.get(player);
         for (var enchantmentInstance : enchantmentInstances) {
-            MinecraftForge.EVENT_BUS.post(new EnchantEvent(player, toEnchant, enchantmentInstance));
+            EnchantEventWrapper.onEnchantEvent(player, toEnchant, enchantmentInstance);
         }
     }
-
 }
+

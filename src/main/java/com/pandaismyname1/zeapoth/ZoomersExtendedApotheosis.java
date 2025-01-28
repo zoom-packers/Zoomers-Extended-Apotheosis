@@ -26,7 +26,7 @@ public class ZoomersExtendedApotheosis {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "ze_apotheosis";
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public ZoomersExtendedApotheosis() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -36,6 +36,7 @@ public class ZoomersExtendedApotheosis {
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+        EnchantEventWrapper.bootstrap();
         ReforgingTables.bootstrap(modEventBus);
         Items.bootstrap(modEventBus);
         EnderDragonLootModifier.bootstrap(modEventBus);
