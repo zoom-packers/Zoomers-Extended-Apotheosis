@@ -1,0 +1,18 @@
+{
+    "type": "apotheosis:salvaging",
+    "conditions": [{
+        "type": "apotheosis:module",
+        "module": "adventure"
+    }],
+    "input": {
+        "type": "apotheosis:affix_item",
+        "rarity": "apotheosis:custom_2"
+    },
+    "outputs": [{
+        "min_count": 1,
+        "max_count": 4,
+        "stack": {
+            "item": "ze_apotheosis:angelic_material"
+        }
+    }]
+}
