@@ -2,8 +2,8 @@
   "ordinal": 6,
   "color": "#e31e1e",
   "material": "ze_apotheosis:celestial_material",
-  "weight": 20,
-  "quality": 30,
+  "weight": 18,
+  "quality": 45,
   "rules": [{
     "type": "stat",
     "chance": 1.0

@@ -3,7 +3,7 @@
   "color": "#1EBBE3",
   "material": "ze_apotheosis:radiant_material",
   "weight": 20,
-  "quality": 25,
+  "quality": 30,
   "rules": [{
     "type": "stat",
     "chance": 1.0

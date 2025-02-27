@@ -2,8 +2,8 @@
 	"ordinal": 9,
 	"color": "rainbow",
 	"material": "apotheosis:ancient_material",
-	"weight": 0,
-	"quality": 0,
+	"weight": 5,
+	"quality": 120,
 	"rules": [{
 		"type": "ancient",
 		"chance": 1.0
